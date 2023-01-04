@@ -1,0 +1,233 @@
+/******************* VISTA PARA PC *****************/
+@media screen and (min-width: 992px) {
+  #main-contactanos {
+    background-color: #112b3c;
+    width: 100%;
+    height: 47.8vw;
+  }
+  #main-contactanos h2 {
+    color: #ec994b;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 13vw;
+  }
+
+  #formContactanos {
+    position: absolute;
+    margin-top: calc(100% / 12);
+    left: calc(100% / 8);
+    text-align: center;
+  }
+  .form-control {
+    width: 25vw;
+    padding: 1vw;
+    margin: 1.6vw;
+    border-radius: 10px;
+    font-size: 1vw;
+  }
+  #msj {
+    padding-bottom: 4vw;
+  }
+  #logo-casa {
+    width: 3.7vw;
+    height: 3.7vw;
+    position: absolute;
+    margin-top: 10.5vw;
+    left: 48vw;
+  }
+  #direction p {
+    color: #ffffff;
+    font-size: 1.2vw;
+    width: 18vw;
+    position: absolute;
+    margin-top: 11vw;
+    left: 54vw;
+    text-align: left;
+  }
+  #dog-map {
+    width: 16vw;
+    height: auto;
+    position: absolute;
+    margin-top: calc(100% / 18);
+    right: calc(100% / 8);
+    z-index: 3;
+  }
+  #map {
+    position: absolute;
+    margin-top: calc(100% / 6.5);
+    right: calc(100% / 8);
+    width: 40vw;
+    height: 17vw;
+  }
+
+  /* Ubicacion elementos decorativos */
+  #point-decoration2 {
+    width: 7vw;
+    height: auto;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 0;
+  }
+  #triangle-blue {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    right: 0.5vw;
+  }
+}
+/******************* VISTA PARA TABLET *****************/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #main-contactanos {
+    background-color: #112b3c;
+    width: 100%;
+    height: 98vw;
+  }
+  #main-contactanos h2 {
+    color: #ec994b;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 20vw;
+  }
+
+  #formContactanos {
+    position: absolute;
+    margin-top: 4vw;
+    left: calc(100% / 2.8);
+    text-align: center;
+  }
+  .form-control {
+    width: 28vw;
+    padding: 1.5vw;
+    margin: 1.6vw;
+    border-radius: 10px;
+    font-size: 1.5vw;
+  }
+  #msj {
+    padding-bottom: 5vw;
+    margin-bottom: 2.5vw;
+  }
+  #logo-casa {
+    width: 3.7vw;
+    height: 3.7vw;
+    position: absolute;
+    margin-top: 52vw;
+    left: 25vw;
+  }
+  #direction p {
+    color: #ffffff;
+    font-size: 1.4vw;
+    width: 18vw;
+    position: absolute;
+    margin-top: 52vw;
+    left: 30vw;
+    text-align: left;
+  }
+  #dog-map {
+    width: 16vw;
+    height: auto;
+    position: absolute;
+    margin-top: calc(100% / 2.1);
+    right: calc(100% / 5);
+    z-index: 3;
+  }
+  #map {
+    position: absolute;
+    margin-top: calc(100% / 1.75);
+    right: calc(100% / 7);
+    width: 68vw;
+    height: 22vw;
+  }
+  #btn-contact {
+    background-color: #ec994b;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 17px;
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #0d1921;
+  }
+
+  /* Ubicacion elementos decorativos */
+  #point-decoration2 {
+    width: 7vw;
+    height: auto;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 0;
+  }
+  #triangle-blue {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    right: 0.5vw;
+  }
+}
+/******************* VISTA PARA MOVIL *****************/
+@media screen and (max-width: 767px) {
+  #main-contactanos {
+    background-color: #112b3c;
+    width: 100%;
+    height: 120vw;
+  }
+  #main-contactanos h2 {
+    color: #ec994b;
+    font-size: 7vw;
+    font-weight: bold;
+    margin-top: 26vw;
+  }
+
+  #formContactanos {
+    position: absolute;
+    margin-top: -45vw;
+    left: calc(100% / 5);
+    text-align: center;
+  }
+  .form-control {
+    width: 50vw;
+    padding: 3vw;
+    margin: 4vw;
+    border-radius: 2vw;
+    font-size: 3.5vw;
+  }
+  #msj {
+    padding-bottom: 10vw;
+  }
+  #logo-casa,
+  #direction p,
+  #map {
+    display: none;
+    opacity: 0;
+  }
+  #dog-map {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    margin-top: 82vw;
+    right: 2vw;
+    z-index: 3;
+  }
+  /* Ubicacion elementos decorativos */
+  #point-decoration2 {
+    width: 16vw;
+    height: auto;
+    position: absolute;
+    transform: rotate(180deg);
+    left: -2vw;
+  }
+  #triangle-blue {
+    width: 14vw;
+    height: auto;
+    position: relative;
+    left: 82%;
+    top: -25vw;
+  }
+  #btn-contact {
+    background-color: #ec994b;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 17px;
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #0d1921;
+  }
+}

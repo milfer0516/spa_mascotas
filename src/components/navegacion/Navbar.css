@@ -1,0 +1,243 @@
+/******************* VISTA PARA PC *****************/
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar-brand img {
+    margin: 0.5vw 0 0 1vw;
+    width: auto;
+    height: 5vw;
+    cursor: pointer;
+  }
+  .navbar-nav {
+    color: aliceblue;
+    padding: 5px;
+    background-color: #115375;
+    border-radius: 50px;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 0 0.5vw 0;
+    display: flex;
+  }
+  .nav-logo {
+    display: none;
+  }
+  .nav-link,
+  .nav-link-active {
+    color: aliceblue;
+    font-size: 1.2vw;
+    text-align: center;
+    margin: 0.2vw 1vw;
+  }
+  .active {
+    color: #ec994b;
+  }
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #ec994b;
+    cursor: pointer;
+  }
+  .collapse img {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+/******************* VISTA PARA TABLET *****************/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar-brand img {
+    margin: 0.5vw 0 0 1vw;
+    width: auto;
+    height: 6vw;
+    cursor: pointer;
+  }
+  .show,
+  .collapsing {
+    color: aliceblue;
+    padding: 5px;
+    background-color: #1c2431;
+    width: calc(100% / 2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding-top: 14vw;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 0.4vw;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-logo {
+    padding: 0.4vw;
+    text-align: center;
+    cursor: pointer;
+  }
+  .nav-logo img {
+    width: 3vw;
+    height: 3vw;
+    margin: 3vw 1vw;
+  }
+  .nav-link,
+  .nav-link-active {
+    color: aliceblue;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0.2vw 1vw;
+  }
+  .active {
+    color: #ec994b;
+  }
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #ec994b;
+    cursor: pointer;
+  }
+  #login img {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 2vw;
+    right: 12vw;
+    z-index: -2;
+  }
+  .navbar-toggler {
+    width: 6vw;
+    height: 7vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.5vw;
+    margin-top: 1vw;
+    cursor: pointer;
+  }
+  .navbar-toggler .icon-hambur {
+    background-color: aliceblue;
+    width: 100%;
+    height: 0.7vw;
+    border-radius: 3px;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+  .open > span:first-child {
+    transform: rotate(36deg);
+  }
+  .open > span:nth-child(2) {
+    opacity: 0;
+  }
+  .open > span:last-child {
+    transform: rotate(-36deg);
+  }
+}
+/******************* VISTA PARA MOVIL *****************/
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar-brand img {
+    margin: 0.5vw 0 0 1vw;
+    width: auto;
+    height: 6vw;
+    cursor: pointer;
+  }
+  .show,
+  .collapsing {
+    color: aliceblue;
+    padding: 5px;
+    background-color: #1c2431;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding-top: 14vw;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 0.4vw;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-logo {
+    padding: 0.4vw;
+    text-align: center;
+    cursor: pointer;
+  }
+  .nav-logo img {
+    width: 3vw;
+    height: 3vw;
+    margin: 3vw 1vw;
+  }
+  .nav-link,
+  .nav-link-active {
+    color: aliceblue;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0.2vw 1vw;
+  }
+  .active {
+    color: #ec994b;
+  }
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #ec994b;
+    cursor: pointer;
+  }
+  #login img {
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    top: 2.8vw;
+    right: 12vw;
+    z-index: -2;
+  }
+  .navbar-toggler {
+    width: 7vw;
+    height: 7vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0.5vw;
+    margin-top: 1vw;
+    cursor: pointer;
+  }
+  .navbar-toggler .icon-hambur {
+    background-color: aliceblue;
+    width: 100%;
+    height: 0.7vw;
+    border-radius: 3px;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+  .open > span:first-child {
+    transform: rotate(36deg);
+  }
+  .open > span:nth-child(2) {
+    opacity: 0;
+  }
+  .open > span:last-child {
+    transform: rotate(-36deg);
+  }
+}

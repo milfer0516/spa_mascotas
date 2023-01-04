@@ -1,0 +1,165 @@
+/******************* VISTA PARA PC *****************/
+@media screen and (min-width: 992px) {
+  footer {
+    margin-top: 5vw;
+    background-color: #1c2431;
+  }
+  .row {
+    width: 100%;
+  }
+  .row h5 {
+    color: #ec994b;
+    font-weight: bold;
+    font-size: 1.7vw;
+    margin-bottom: 3vw;
+  }
+  #footer-info > .col > p {
+    width: 18vw;
+    color: #f1f1f1;
+    font-size: 1.2vw;
+  }
+  .nav-item img {
+    margin: 0.4vw 1vw 1vw 0;
+  }
+  .col {
+    text-align: left;
+  }
+  #footer-info {
+    margin: 0 auto;
+    padding: 4vw 7vw 0.5vw;
+  }
+  .icon {
+    width: 1.5vw;
+    height: 1.5vw;
+    display: flex;
+  }
+  #direction {
+    display: none;
+  }
+  .contact-link {
+    text-decoration: none;
+    color: #f1f1f1;
+    cursor: pointer;
+  }
+  #footer-copyright {
+    background-color: #151b29;
+    width: 100%;
+    padding: 0.5vw;
+  }
+  #footer-copyright h6 {
+    font-size: 1vw;
+    color: #f1f1f1;
+    padding: 0.7vw;
+    margin: 0;
+  }
+}
+/******************* VISTA PARA TABLET *****************/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  footer {
+    margin-top: 5vw;
+    background-color: #1c2431;
+  }
+  #navigation {
+    display: none;
+  }
+  .contact-link {
+    font-size: 2vw;
+    width: 20vw;
+    text-decoration: none;
+    color: #f1f1f1;
+    cursor: pointer;
+  }
+  #contact .nav-item {
+    justify-content: left;
+  }
+  .row {
+    width: 100%;
+  }
+  .row h5 {
+    color: #ec994b;
+    font-weight: bold;
+    font-size: 2.2vw;
+    margin-bottom: 3vw;
+  }
+  #footer-info > .col > p {
+    width: 24vw;
+    color: #f1f1f1;
+    font-size: 1.8vw;
+  }
+  .nav-item img {
+    margin: 0.4vw 1vw 1vw 0;
+  }
+  .col {
+    text-align: left;
+  }
+  #footer-info {
+    margin: 0 auto;
+    padding: 6vw 10vw 0.5vw;
+  }
+  .icon {
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+  }
+  #direction {
+    display: none;
+  }
+  #footer-copyright {
+    background-color: #151b29;
+    width: 100%;
+    padding: 0.5vw;
+  }
+  #footer-copyright h6 {
+    font-size: 1.5vw;
+    color: #f1f1f1;
+    padding: 0.7vw;
+    margin: 0;
+  }
+}
+/******************* VISTA PARA MOVIL *****************/
+@media screen and (max-width: 767px) {
+  footer {
+    margin-top: 5vw;
+    background-color: #1c2431;
+  }
+  .nav-item img {
+    margin: 0.4vw 3vw 1vw 0;
+  }
+  #footer-info {
+    margin: 0 auto;
+    padding: 8vw 7vw 0;
+  }
+  .icon {
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+  }
+  #navigation,
+  #description {
+    display: none;
+  }
+  #contact > h5 {
+    display: none;
+  }
+  .contact-link {
+    font-size: 4vw;
+    width: 80vw;
+    text-decoration: none;
+    color: #f1f1f1;
+    cursor: pointer;
+  }
+  #contact .nav-item {
+    justify-content: left;
+  }
+  #footer-copyright {
+    background-color: #151b29;
+    width: 100%;
+    padding: 1vw;
+  }
+  #footer-copyright h6 {
+    font-size: 3vw;
+    color: #f1f1f1;
+    padding: 1vw;
+    margin: 0;
+  }
+}

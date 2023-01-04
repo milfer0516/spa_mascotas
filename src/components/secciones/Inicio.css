@@ -1,0 +1,385 @@
+#main-inicio {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #112b3c;
+  width: 100%;
+  height: 68vw;
+  display: flex;
+  align-items: center;
+}
+.inicio-text h1 {
+  color: #eae3d2;
+  font-weight: 4px;
+}
+.inicio-text h1 b {
+  color: #ec994b;
+}
+.inicio-text p {
+  color: #c9c9c9;
+}
+
+/******************* VISTA PARA PC *****************/
+@media screen and (min-width: 992px) {
+  /* Estilo texto */
+  .inicio-text {
+    width: 25vw;
+    display: inline-block;
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+  }
+
+  #main-inicio h1 {
+    font-size: 3vw;
+  }
+
+  #main-inicio p {
+    font-size: 1.2vw;
+  }
+
+  /* Estilo imagen */
+
+  .inicio-img {
+    display: inline-block;
+  }
+
+  .inicio-img .img-fluid {
+    width: 38vw;
+    height: auto;
+    position: absolute;
+    top: 6vw;
+    right: 25vw;
+    filter: drop-shadow(1px 4px 50px rgba(0, 0, 0, 0.4));
+    z-index: 2;
+  }
+
+  .btn-warning {
+    background-color: #ec994b;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 17px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #0d1921;
+  }
+  .btn-warning:hover {
+    background-color: #c56e1d;
+  }
+
+  /* Ubicacion elementos decorativos inicio */
+
+  #bone1 {
+    width: 11vw;
+    height: auto;
+    position: absolute;
+    top: 3vw;
+    left: 20vw;
+    z-index: 1;
+  }
+
+  #bone2 {
+    width: 11vw;
+    height: auto;
+    position: absolute;
+    right: 12vw;
+    top: 14vw;
+    transform: rotate(130deg);
+    z-index: 1;
+  }
+
+  #vector1 {
+    width: 13vw;
+    height: auto;
+    position: absolute;
+    top: 10vw;
+    right: 0;
+    z-index: 1;
+  }
+
+  #element-inicio {
+    width: 74vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  #bubble1 {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 7vw;
+    left: 38vw;
+    z-index: 1;
+  }
+
+  #bubble2 {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 28vw;
+    right: 20vw;
+    transform: rotate(130deg);
+    z-index: 1;
+  }
+
+  #bubble3 {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 50vw;
+    left: 30vw;
+    transform: rotate(-5deg);
+    z-index: 1;
+  }
+
+  #foot-dog {
+    width: 16vw;
+    height: auto;
+    position: absolute;
+    top: 40vw;
+    right: 3vw;
+    transform: rotate(-5deg);
+    z-index: 1;
+  }
+
+  #circle-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 44vw;
+    left: 0;
+    z-index: 1;
+  }
+
+  #point-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 70vw;
+    right: 0;
+  }
+  #blob,
+  #vectorMovil {
+    display: none;
+  }
+}
+/******************* VISTA PARA TABLET *****************/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilo texto */
+  .inicio-text {
+    width: 36vw;
+    display: inline-block;
+    position: absolute;
+    top: 20vw;
+    left: 6vw;
+  }
+
+  #main-inicio h1 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+  #main-inicio p {
+    font-size: 2vw;
+    width: 48vw;
+    margin-top: 2vw;
+  }
+
+  /* Estilo imagen */
+
+  .inicio-img {
+    display: inline-block;
+  }
+
+  .inicio-img .img-fluid {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 16vw;
+    right: 12vw;
+    filter: drop-shadow(1px 4px 50px rgba(0, 0, 0, 0.4));
+    z-index: 2;
+  }
+  #blob {
+    position: absolute;
+    top: 8vw;
+    right: 2vw;
+    width: 50vw;
+  }
+  .inicio {
+    background-color: #ec994b;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #0d1921;
+    margin-top: 2vw;
+  }
+  .btn-warning:hover {
+    background-color: #c56e1d;
+  }
+
+  /* Ubicacion elementos decorativos inicio */
+
+  #bone1,
+  #bone2,
+  #vector1,
+  #element-inicio,
+  #bubble1,
+  #bubble2,
+  #bubble3,
+  #foot-dog {
+    display: none;
+  }
+
+  #circle-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 55vw;
+    right: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+  }
+
+  #point-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 65vw;
+    left: 0;
+    transform: rotate(180deg);
+  }
+  #vectorMovil {
+    display: none;
+  }
+}
+/******************* VISTA PARA MOVIL *****************/
+@media screen and (max-width: 767px) {
+  #main-inicio {
+    height: 150vw;
+  }
+  /* Estilo texto */
+  #main-inicio h1 {
+    position: absolute;
+    top: 18vw;
+    width: 48vw;
+    font-size: 6.5vw;
+    font-weight: 600;
+    left: calc(100% / 3);
+    text-align: center;
+  }
+
+  #main-inicio p {
+    position: absolute;
+    top: 44vw;
+    left: calc(100% / 9);
+    font-size: 3.5vw;
+    width: 80vw;
+    margin-top: 2vw;
+    text-align: center;
+  }
+
+  /* Estilo imagen */
+
+  .inicio-img {
+    display: inline-block;
+  }
+
+  .inicio-img .img-fluid {
+    width: 35vw;
+    height: auto;
+    position: absolute;
+    top: 92vw;
+    right: calc(100% / 3.5);
+    filter: drop-shadow(1px 4px 50px rgba(0, 0, 0, 0.4));
+    z-index: 2;
+  }
+  #blob {
+    display: none;
+  }
+  #vectorMovil {
+    width: 75vw;
+    height: auto;
+    position: absolute;
+    top: 86vw;
+    left: calc(100% / 6);
+  }
+  .inicio {
+    background-color: #ec994b;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 4vw;
+    font-weight: 600;
+    color: #0d1921;
+    margin-top: 4vw;
+    position: relative;
+    left: calc(100% / 1.2);
+  }
+  .btn-warning:hover {
+    background-color: #c56e1d;
+  }
+  /* Ubicacion elementos decorativos inicio */
+
+  #bone2,
+  #vector1,
+  #element-inicio,
+  #bubble2 {
+    display: none;
+  }
+  #bone1 {
+    width: 10vw;
+    height: auto;
+    position: absolute;
+    top: 100vw;
+    right: calc(100% / 4);
+    transform: rotate(-45deg);
+    z-index: 1;
+  }
+  #bubble1 {
+    width: 6vw;
+    height: auto;
+    top: 104vw;
+    left: calc(100% / 4);
+    position: absolute;
+  }
+  #bubble3 {
+    width: 10vw;
+    height: auto;
+    top: 135vw;
+    left: calc(100% / 3.8);
+    position: absolute;
+    z-index: 1;
+  }
+  #foot-dog {
+    width: 14vw;
+    height: auto;
+    top: 128vw;
+    right: calc(100% / 6.5);
+    position: absolute;
+    z-index: 1;
+  }
+
+  #circle-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 80vw;
+    right: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+  }
+
+  #point-decoration {
+    width: 14vw;
+    height: auto;
+    position: absolute;
+    top: 68vw;
+    left: -3vw;
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,91 @@
+html {
+  background-color: #151b29;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+#header-login {
+  position: fixed;
+}
+#logo img {
+  margin: 2vw 3vw;
+  width: auto;
+  height: 4vw;
+}
+
+#section-login {
+  background-color: #d9d9d9;
+  border-radius: 3vw;
+  width: 28vw;
+  height: 26.5vw;
+  text-align: center;
+  left: calc(100% / 4.2);
+  top: 10vw;
+  position: absolute;
+  z-index: 2;
+}
+#section-login h1 {
+  font-weight: bold;
+  width: 100%;
+  padding: 3vw 0 1vw;
+  font-size: 2.5vw;
+}
+#section-login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: initial;
+  margin-top: 1vw;
+}
+.form-area {
+  width: 70%;
+  margin: 1vw;
+  padding: 1.1vw;
+  border-radius: 1vw;
+  background-color: #1c2431;
+  color: #d9d9d9;
+  border: none;
+  font-size: 1.2vw;
+}
+.form-area::placeholder {
+  color: #d9d9d9;
+  font-size: 1.2vw;
+}
+.login {
+  background-color: #ec994b;
+  border: none;
+  border-radius: 1.2vw;
+  padding: 0.7vw 1.3vw;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin: 1vw;
+}
+
+#bienvenido {
+  background-color: #ec994b;
+  border-radius: 2vw;
+  width: 30vw;
+  height: 36vw;
+  text-align: center;
+  position: absolute;
+  right: calc(100% / 4.4);
+  font-weight: bold;
+  padding: calc(100% / 8) 5vw;
+  top: 5vw;
+}
+#bienvenido h2 {
+  font-weight: bold;
+  font-size: 2.2vw;
+}
+#bienvenido p {
+  font-size: 1.2vw;
+}
+.icon img {
+  margin: 0.5vw;
+  width: 1.5vw;
+  height: auto;
+  cursor: pointer;
+}
+.icon {
+  display: inline;
+}
